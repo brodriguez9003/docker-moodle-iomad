@@ -24,8 +24,8 @@ services:
         volumes:
             - moodleapp-data:/var/moodledata
         ports:
-            - 80:80
-            - 443:443
+            - 8080:80
+            - 8443:443
         env_file:
             - moodle_variables.env
         networks:
